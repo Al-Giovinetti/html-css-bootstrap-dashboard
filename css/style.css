@@ -1,11 +1,16 @@
 header [class^="col"]{
     background-color: red;
     border:1px solid black;
+    height: 8vh;
 }
 
 .my_p{
     background-color: blue;
     border: 1px solid orangered;
+}
 
-
+main nav.col-1{
+    background-image:url("../img/sidebar-bg.png");
+    background-color: blue;
+    height:92vh;
 }
