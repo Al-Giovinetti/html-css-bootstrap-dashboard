@@ -11,12 +11,11 @@ header.my_header-top [class^="col"]{
 }
 
 
-
 main nav{
     background-image:url("../img/sidebar-bg.png");
     background-color: blue;
-    height: calc(100vh - 50px);
     width: auto;
+    height: calc(100vh - 50px);
 }
 
 main>div>div{
