@@ -1,16 +1,33 @@
-header [class^="col"]{
+
+
+header.my_header-top [class^="col"]{
     background-color: red;
     border:1px solid black;
-    height: 8vh;
+    height: 50px;
 }
 
 .my_p{
-    background-color: blue;
     border: 1px solid orangered;
 }
 
-main nav.col-1{
+
+
+main nav{
     background-image:url("../img/sidebar-bg.png");
     background-color: blue;
-    height:92vh;
+    height: calc(100vh - 50px);
+    width: auto;
+}
+
+main>div>div{
+    width: 100%;
+}
+
+/* Colorazioni */
+.my_bg-lightblue{
+    background-color: #1B72E8;
+}
+
+.my_bg-dark{
+    background-color: #051E34;
 }
