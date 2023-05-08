@@ -22,8 +22,12 @@ main>div>div{
     height:calc(100vh - 50px); ;
 }
 
-img{
-    width: 100%;
+header img{
+    width:100%;
+}
+
+table img{
+    height: 30px;
 }
 
 .my_button{
@@ -48,3 +52,4 @@ main header{
 .my_bg-dark{
     background-color: #051E34;
 }
+
