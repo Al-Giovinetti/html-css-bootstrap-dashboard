@@ -1,21 +1,19 @@
 
 
-header.my_header-top [class^="col"]{
-    background-color: red;
-    border:1px solid black;
+header.my_header-top [class^="col"],
+header.my_header-top{
     height: 50px;
 }
 
-.my_p{
-    border: 1px solid orangered;
-}
-
-
 main nav{
     background-image:url("../img/sidebar-bg.png");
-    background-color: blue;
     width: auto;
     height: calc(100vh - 50px);
+}
+
+header img{
+    height: 45px;
+    object-fit: cover;
 }
 
 main>div>div{
@@ -23,7 +21,7 @@ main>div>div{
     overflow-y: scroll;
 }
 
-.my_graphic>img{
+img{
     width: 100%;
 }
 
