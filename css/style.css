@@ -20,6 +20,11 @@ main nav{
 
 main>div>div{
     width: 100%;
+    overflow-y: scroll;
+}
+
+.my_graphic>img{
+    width: 100%;
 }
 
 /* Colorazioni */
