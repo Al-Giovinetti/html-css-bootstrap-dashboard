@@ -69,7 +69,68 @@
                         <div class="row justify-content-between ">
                             <div class="col-12 col-md col-lg-3 py-2 order-md-3">
                                 <span>Nuovo Studente</span>
-                                <i class="fa-solid fa-square-plus "></i>
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                    <i class="fa-solid fa-square-plus "></i>
+                                </button>
+                                <div class="offcanvas offcanvas-end text-dark w-lg-75" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo Studente</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                    <form class="offcanvas-body container-fluid">
+                                        <div class="row">
+                                            <div class="col-12 col-md-6 text-danderus-md">
+                                                <label  class="d-block" for="">Nome</label>
+                                                <input  class="w-100" type="text" name="" id="">
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <label  class="d-block" for="">Cognome</label>
+                                                <input   class="w-100"type="text" name="" id="">
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <label  class="d-block" for="">E-mail</label>
+                                                <input  class="w-100"type="mail" name="" id="">
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <label  class="d-block" for="">Password</label>
+                                                <input class="w-100" type="password" name="" id="">
+                                            </div>
+                                            <div class="col-12">
+                                                <label  class="d-block" for="">Indirizzo</label>
+                                                <input  class="w-100"type="text" name="" id="">
+                                            </div>
+                                            <div class="col-12 col-md-6">
+                                                <label  class="d-block" for="">Città</label>
+                                                <input  class="w-100"type="text" name="" id="">
+                                            </div>
+                                            <div class="col-12 col-md-3">
+                                                <label  class="d-block" for="">Stato</label>
+                                                <select name="nazionality" id="" class="w-100">
+                                                    <option value="IT">Italia</option>
+                                                    <option value="US">USA</option>
+                                                    <option value="fr">Francia</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-12 col-md-3">
+                                                <label  class="d-block" for="">CAP</label>
+                                                <input  class="w-100"type="text" name="" id="">
+                                            </div>
+                                            <div class="col-12">
+                                                <label  class="d-block" for="">foto</label>
+                                                <div  class="w-100 d-flex row ps-2">
+                                                    <div class="col-4 border rounded-1">Scegli foto</div>
+                                                    <div class="col-8 border rounded-1">Nessun file selezionato</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <input type="checkbox" name="" id="">
+                                        <label for="">Seleziona per proseguire</label>
+                                        <div class="p-2">
+                                            <input type="submit" value="Salva" class="btn btn-sm btn-primary">
+                                            <button class="btn btn-sm btn-warning">Svuota</button>
+                                        </div>
+                                    </form>
+                                </div>
                             </div>
                             <div class="col-12 col-md col-lg order-md-1 py-2 ">
                                 <div>
