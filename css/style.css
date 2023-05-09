@@ -41,6 +41,10 @@ main header{
     color: white;
 }
 
+#offcanvasRight{
+    width: 100%;
+}
+
 /* Colorazioni */
 .my_bg-lightblue{
     background-color: #1B72E8;
